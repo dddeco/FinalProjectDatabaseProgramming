@@ -73,7 +73,7 @@ class SearchFrame(tk.Frame):
         pre = data.iloc[0][1]
         res = data.iloc[0][0]
         str1 = str(pre)
-        #str2 = str(res)
+        str2 = str(res)
         if int(res) == 1:
             str2 = 'High Possiblity'
         elif int(res) == 0:
